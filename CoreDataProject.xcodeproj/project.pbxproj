@@ -13,8 +13,6 @@
 		75B635DD2A31A65B00345014 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B635DC2A31A65B00345014 /* Preview Assets.xcassets */; };
 		75B635E52A31A7C200345014 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B635E42A31A7C200345014 /* DataController.swift */; };
 		75B635E82A31A7F000345014 /* CoredDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75B635E62A31A7F000345014 /* CoredDataProject.xcdatamodeld */; };
-		75B635EB2A31B43800345014 /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B635E92A31B43800345014 /* Movie+CoreDataClass.swift */; };
-		75B635EC2A31B43800345014 /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B635EA2A31B43800345014 /* Movie+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +24,6 @@
 		75B635E32A31A6A400345014 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		75B635E42A31A7C200345014 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		75B635E72A31A7F000345014 /* CoredDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoredDataProject.xcdatamodel; sourceTree = "<group>"; };
-		75B635E92A31B43800345014 /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
-		75B635EA2A31B43800345014 /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				75B635D52A31A65B00345014 /* CoreDataProjectApp.swift */,
-				75B635EA2A31B43800345014 /* Movie+CoreDataProperties.swift */,
-				75B635E92A31B43800345014 /* Movie+CoreDataClass.swift */,
 				75B635D72A31A65B00345014 /* ContentView.swift */,
 				75B635E42A31A7C200345014 /* DataController.swift */,
 				75B635E62A31A7F000345014 /* CoredDataProject.xcdatamodeld */,
@@ -154,8 +148,6 @@
 				75B635D82A31A65B00345014 /* ContentView.swift in Sources */,
 				75B635E52A31A7C200345014 /* DataController.swift in Sources */,
 				75B635D62A31A65B00345014 /* CoreDataProjectApp.swift in Sources */,
-				75B635EB2A31B43800345014 /* Movie+CoreDataClass.swift in Sources */,
-				75B635EC2A31B43800345014 /* Movie+CoreDataProperties.swift in Sources */,
 				75B635E82A31A7F000345014 /* CoredDataProject.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

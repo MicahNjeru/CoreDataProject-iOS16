@@ -5,13 +5,12 @@
 //  Created by Micah Jesse Njeru on 08/06/2023.
 //
 
+import CoreData
 import SwiftUI
 
-
 struct ContentView: View {
-    
     var body: some View {
-        Text("Something")
+        Text("Something simple.")
     }
 }
 
