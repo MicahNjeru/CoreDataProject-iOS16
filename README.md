@@ -5,5 +5,6 @@
 
 
 ## What I've learnt
-- Objects that conform to the `Hashable` protocol have unique hash values that Swift uses to differentiate similar objects 
+- Objects that conform to the `Hashable` protocol have unique hash values that Swift uses to differentiate similar objects
+- Learnt how to configure `Core Data Entities` manually and how it actually works behind the scenes to read and write data  
 
