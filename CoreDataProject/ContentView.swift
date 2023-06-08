@@ -9,13 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        List {
+            ForEach([2, 4, 6, 8, 10], id: \.self) {
+                Text("\($0) is even")
+            }
         }
-        .padding()
     }
 }
 
